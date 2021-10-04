@@ -5,20 +5,3 @@
   color: white;
   font-family: 'Inter', 'Arial', sans-serif;
 }
-
-
-/* @media screen and (max-width: 1024px) {
-  .page {
-    max-height: 640px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .page {
-    max-height: 480px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .page {
-    max-height: 200px;
-  }
-} */
