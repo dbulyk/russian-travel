@@ -2,3 +2,19 @@
   max-width: 690px;
   margin: 0 148px 92px
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 48px 92px
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: 0 24px 88px
+  }
+}
+@media screen and (max-width: 425px) {
+  .intro {
+    margin: 0 16px 64px
+  }
+}

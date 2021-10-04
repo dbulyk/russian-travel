@@ -9,3 +9,24 @@
 .place:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-columns: 440px 1fr;
+    grid-gap: 48px 32px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    margin-bottom: 73px;
+    grid-gap: 48px 28px;
+  }
+}
+@media screen and (max-width: 672px) {
+  .place {
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+    grid-gap: 32px;
+  }
+}

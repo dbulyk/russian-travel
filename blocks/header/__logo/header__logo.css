@@ -1,6 +1,9 @@
 .header__logo {
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
+  width: 100%;
+  max-height: 52px;
+  min-height: 42px;
   background-image: url("../../../images/logo.svg");
-  object-fit: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
 }

@@ -3,7 +3,6 @@
   transition: opacity .3s ease-in-out;
 }
 
-.link:hover,
-.link:active {
+.link:hover {
   opacity: .8;
 }
