@@ -1,18 +1,20 @@
 .cover {
-  margin: 92px 0 0;
+  margin: 92px auto 0;
+  max-width: 1184px;
   display: flex;
   position: relative;
   background-image: url("../../images/cover__background.jpg");
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   min-height: 740px;
   width: 100%;
 }
 
+
 @media screen and (max-width: 1024px) {
   .cover {
-    min-height: 740px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -20,7 +22,7 @@
     min-height: calc(62.50vw);
   }
 }
-@media screen and (max-width: 672px) {
+@media screen and (max-width: 350px) {
   .cover {
     margin: 66px 0 0;
     min-height: 200px;
